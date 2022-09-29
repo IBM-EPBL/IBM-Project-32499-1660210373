@@ -1,10 +1,9 @@
-import RPi.GPIO as GPIO
-from time import sleep 
-GPIO.setwarnings(False) 
-GPIO.setmode(GPIO.BOARD) 
-GPIO.setup(8, GPIO.OUT, initial=GPIO.LOW) 
-while True: # Run forever
- GPIO.output(8, GPIO.HIGH) # Turn on
- sleep(1) # Sleep for 1 second
- GPIO.output(8, GPIO.LOW) # Turn off
- sleep(1) # Sleep for 1 second
+import time
+import RPi.GPIO as GPIO       
+GPIO.setmode(GPIO.BOARD)    
+GPIO.setup(11, GPIO.OUT)      
+while True:
+	GPIO.output(11,True)  ## Turn on Led
+	time.sleep(1)         ## Wait for one second
+	GPIO.output(11,False) ## Turn off Led
+	time.sleep(1)         ## Wait for one second
