@@ -1,0 +1,12 @@
+a=int(input("Enter temperature Value:"))
+b=int(input("Enter humidity Value:"))
+if a>80:
+    print("High temp")
+    if b>90:
+        print("Hazard")
+    else:
+        print("High temp")
+elif a==80:
+    print("Temp at amx level")
+else:
+    print("Nothing")
