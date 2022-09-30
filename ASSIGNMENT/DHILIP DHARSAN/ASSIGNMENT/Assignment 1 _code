@@ -1,0 +1,44 @@
+int buzzer = 12;
+float temp;
+int m=0;int p=0;
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(buzzer, OUTPUT);
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  temp = analogRead(A5);
+  temp = temp * 0.48828125;
+  Serial.print("TEMPERATURE IS:");
+  Serial.print(temp);
+  Serial.print("*c");
+  Serial.println();
+  
+  m = analogRead(A0);
+  p = map(m,0,255,0,1023);
+  Serial.println(p);
+  if(p>100 && temp>50)
+  {
+    Serial.println("Motion is Detected");
+    digitalWrite(13,HIGH);
+    delay(1000);
+    digitalWrite(12,HIGH);
+  
+    tone(12,150);// pin number,frequancy(20-30000),delay
+    delay(1000);
+    noTone(12);
+    delay(1000);
+  
+  }
+  
+  else 
+  {
+	digitalWrite(13,LOW);
+    delay(1000);
+
+  }
+}
