@@ -134,14 +134,3 @@ KANNAGI
   
   
 📫 How to reach Us <a href = "mailto: kannankaruppaiah07052002@gmail.com">Connect with Email</a>
-
-![Snake animation](https://github.com/gogulkrish/snak-/blob/main/rafaballerini-output/github-contribution-grid-snake.svg)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/IBM-EPBL/IBM-Project-35221-1660282887.svg?style=for-the-badge
-[contributors-url]:https://github.com/IBM-EPBL/IBM-Project-35221-1660282887/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/IBM-EPBL/IBM-Project-35221-1660282887.svg?style=for-the-badge
-[forks-url]:https://github.com/IBM-EPBL/IBM-Project-35221-1660282887/network/members
-[stars-shield]: https://img.shields.io/github/stars/IBM-EPBL/IBM-Project-35221-1660282887.svg?style=for-the-badge
-[stars-url]:https://github.com/IBM-EPBL/IBM-Project-35221-1660282887/stargazers
